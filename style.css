@@ -1,0 +1,84 @@
+*{
+    font-family:'Times New Roman', Times, serif ;
+    padding: 0;
+    margin: 0;
+    color: white;
+}
+a{
+   text-decoration: none;
+}
+body{
+    background-image: linear-gradient(to right, #01022d,#000);
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.container{
+    background-image: 
+    linear-gradient(to right,#01022de5 ,#0000009f),
+    url(img.webp)
+    ;
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 80%;
+    height: 85vh;
+}
+.container:hover{
+    background-image: 
+    linear-gradient(to right,#01022de5 ,transparent),
+    url(img.webp)
+    ;
+}
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+}
+
+.logo{
+    font-size: 30px;
+    text-transform: uppercase;
+    padding: 10px 20px;
+}
+.logo:hover{
+    transform: scale(1.2);
+}
+ul{
+    list-style: none;
+    width: 60%;
+    display: flex;
+    justify-content: space-evenly;
+}
+li a:hover{
+    border-bottom: solid white 3px;
+}
+.content{
+    width: 300px;
+    padding: 100px 20px;
+}
+.content h2{
+    font-size: 50px;
+    text-transform: uppercase;
+    letter-spacing: 7px;
+    margin-bottom:40px ;
+}
+.content p{
+    letter-spacing: 2px;
+    line-height: 20px;
+}
+.content button{
+    color: black;
+    margin-top: 20px;
+    padding: 10px;
+    border-radius: 5px;
+    font-size: 30px;
+    border:solid 2px transparent;
+}
+.content button:hover{
+    color:white;
+    border:solid 2px white;
+    background-color: transparent;
+    cursor: pointer;
+}
